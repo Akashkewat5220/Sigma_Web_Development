@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        #second {
+            background-color: yellow;
+        }
+
+        /* Only for the direct child */
+        div>p {
+            color: white;
+            background-color: black;
+        }
+
+        /* decendent selector div ke andar kahi vhi ho */
+        div p {}
+    </style>
+</head>
+
+<body>
+    <div class=red>
+        I am a div
+    </div>
+    <br>
+    <div id=second>
+        This is second div
+    </div>
+    <div>
+        <span>This the paragraph inside the div tag
+            <p>Para inside span and span is inside the div</p>
+        </span>
+    </div>
+</body>
+
+</html>
