@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* The specificity of this selector is 1 */
+        h1{
+            color: violet;
+        }
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color: yellow;
+        }
+        /* The specificity of this selector is 10 */
+        .red{
+            color: red ;
+        } 
+        /* The specificity of this selector is 10 */
+        .cpurple{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class = "red cyellow cpurple">CSS Specificity</h1>
+    </div>
+</body>
+</html>
+
+
+<!-- Cascade algorithm works for css specificity
+Inline style is highly specific -->
+<!-- then id selector -->
+<!-- clas then attribute then element then universal -->
+<!-- important can even overwrite the inline style -->
+<!-- important ki specificity -->
