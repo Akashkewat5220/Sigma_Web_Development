@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing</title>
+    <style>
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 80vw;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 80vw;
+            /* In below line giving 23px top ansd bottom and left , right is the auto */
+            margin: 23px auto;
+            /* rem and em */
+            background-color: aquamarine;
+        }
+
+        div{
+            background-color: aquamarine;
+            width: 100vmin; 
+            margin: auto;
+        }
+
+        div > p{
+            border: 2px solid red;
+        }
+
+        .mycont{
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 100vmin;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci nam voluptate commodi ipsam sed vel
+        quod nemo, animi facere earum, culpa iure iste distinctio. Fuga commodi sed voluptas magnam error perferendis
+        saepe nulla id voluptates vel quae excepturi, officiis deserunt sapiente totam alias sit adipisci eos,
+        praesentium ut? Suscipit rerum est, consequuntur odit modi quae.
+    </div>
+
+    <div >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut vel ullam impedit dolorem laboriosam voluptate
+            perspiciatis itaque ex incidunt, dignissimos perferendis maiores, ad voluptatum! Officiis quisquam qui
+            assumenda soluta veniam. Beatae possimus, distinctio delectus ipsam iure veniam! Placeat maxime dicta
+            architecto provident aliquam, id veritatis ab officiis nihil numquam quia excepturi iste velit
+            exercitationem hic assumenda aut voluptate eius inventore, culpa, dolorum qui. Molestias blanditiis
+            accusantium asperiores aut odit facilis doloremque quibusdam quidem quae. Blanditiis, sapiente ex omnis
+            unde, illo assumenda aperiam quibusdam ipsa molestias voluptatem aliquid facilis temporibus porro minus
+            maxime ad cupiditate dolore deleniti aspernatur possimus ratione!
+        </p>
+    </div>
+
+    <div class = "mycont">
+        This is the footer.
+    </div>
+</body>
+
+</html>
