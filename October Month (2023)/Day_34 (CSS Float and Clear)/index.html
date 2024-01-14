@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+
+        .cards{
+            border: 2px solid black;
+            display: flow-root;  /* don't know what doing this */
+        }
+
+        img{
+            float:left;  /*  place image at the left */
+        }
+
+        .card{
+            border: 2px  solid red;
+        }
+
+        .card:nth-child(3){
+            background-color:aqua;
+            clear: both;    
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://cdn.pixabay.com/photo/2023/12/12/15/47/yellow-mongoose-8445457_1280.jpg" alt="" width = 230px>
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quasi illo aperiam veritatis voluptatibus ad unde minima qui obcaecati vitae nam id mollitia sit iusto, consectetur tempora officiis nihil reprehenderit, cupiditate fugit? Facere fugit animi beatae error, ut sed quibusdam tempore amet. Delectus corrupti officiis, tempore suscipit quos quod neque rerum autem magni recusandae dignissimos possimus sint sequi ratione deserunt itaque, exercitationem eligendi quaerat nesciunt assumenda natus. Reprehenderit doloremque iure voluptatem fugit? Sunt aliquid velit voluptate natus, in amet rerum ea autem repellat, provident a id suscipit minima molestiae perspiciatis facilis officiis possimus inventore perferendis consectetur iusto voluptatum soluta error. Autem in sint quaerat, asperiores facilis incidunt. Atque exercitationem esse porro minus, expedita sequi totam itaque recusandae labore, dolore, asperiores natus? Dolorem, aliquam consequatur hic vero molestiae a sequi eum atque doloremque repudiandae temporibus voluptas sapiente at quam possimus expedita quibusdam nobis eaque. Est iure voluptas unde perferendis, veniam ipsum dicta iste nisi, mollitia illo ab quod facere culpa at, perspiciatis ut magni illum aspernatur qui doloribus! Nemo, beatae repellat aspernatur cupiditate suscipit, nam iste accusamus incidunt labore sit magnam! Voluptatibus neque pariatur sequi quisquam nam voluptatum accusamus voluptatem quae. Vitae neque et ducimus. Explicabo dolor fuga, beatae velit natus omnis recusandae modi libero voluptatem ratione ea praesentium facilis quia. Eligendi fugiat, libero quam quae, quo placeat aliquid aspernatur ipsam optio aut eos ullam, dolore minima unde autem assumenda inventore?</p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum consectetur tempore iure voluptate quia, a neque iste dicta sed. Vitae, voluptate sint? Itaque laudantium tempore facilis distinctio odit porro reiciendis voluptatem? Amet neque quo harum soluta minus maiores rem inventore doloremque reprehenderit accusantium nemo voluptatibus, ratione veniam excepturi debitis unde delectus itaque a ipsum? Reiciendis eius nisi quibusdam aperiam, repellat ducimus quae rem praesentium explicabo expedita. Molestias officia repellendus nobis quia modi doloribus incidunt nam, sint iure ipsum numquam iusto, natus libero illum. Reprehenderit aliquam sit debitis deleniti provident architecto cum consequatur, delectus natus cupiditate nostrum ut, vel est voluptas impedit veniam soluta error doloremque expedita consectetur voluptatibus, veritatis cumque neque earum! Autem ipsum cupiditate modi a vel perspiciatis quam tempora ullam laudantium! Veritatis, totam. Harum neque quas eos voluptate.
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
+
+<!-- NOT USED A LOT -->
